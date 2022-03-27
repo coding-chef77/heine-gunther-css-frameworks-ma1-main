@@ -1,0 +1,13 @@
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.2rem;
+  margin: 1em 0;
+  text-align: center;
+  color: var(--primary-text-colour);
+}
+
+@media only screen and (min-width: 990px) {
+  h1 {
+    font-size: 3rem;
+  }
+}

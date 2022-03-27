@@ -1,0 +1,8 @@
+.home-block {
+  margin: 2em;
+  border: solid black 0.3em;
+  border-radius: 25%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}

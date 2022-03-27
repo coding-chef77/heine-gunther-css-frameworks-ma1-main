@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  background-color: var(--background-colour);
+  color: #8d8d8d;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  padding-bottom: 2rem;
+}
+
+.container {
+  margin: 0 auto;
+
+  max-width: 1100px;
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: #f4f3ee;
+  margin-top: 2rem;
+  font-size: 0.8em;
+  color: #8d8d8d;
+  padding: 0.5em;
+}
+
+footer div {
+  text-align: center;
+}
+footer a {
+  color: #8d8d8d;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
